@@ -50,10 +50,30 @@ These scripts are designed to be run in **Google Colab**, where you can easily a
      ```
 
 3. **Authenticate with Google Drive:**
-   - Use the following in your notebook:
+   - Use the following in your notebook: (Copy_Gdrive)
      ```python
-     from google.colab import auth
-     auth.authenticate_user()
+!pip install --quiet --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+from google.colab import auth
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+from google.auth.transport.requests import Request
+import io
+
+# Authenticate and create the Drive API service
+auth.authenticate_user()
+drive_service = build('drive', 'v3')
+     ```python
+# Install the necessary libraries
+!pip install --quiet --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+from google.colab import auth
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+
+# Authenticate and create the Drive API service
+auth.authenticate_user()
+drive_service = build('drive', 'v3')
      ```
 
 4. **Run the script:**
