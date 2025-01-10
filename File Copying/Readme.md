@@ -10,7 +10,7 @@ The script is designed to be run in **Google Colab**, where you can easily authe
 
 2. **Install required libraries in Colab:**
 
-3. **Add the following line to the first cell of your Colab notebook:**
+3. **Add the following to the first cell of your Colab notebook:**
      ```python
     # Install the necessary libraries
     !pip install --quiet --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
@@ -26,5 +26,6 @@ The script is designed to be run in **Google Colab**, where you can easily authe
     drive_service = build('drive', 'v3')
      ```
 4. **Run the script:**
-   - Copy the content of the script into a cell and execute it, or reference the uploaded script directly.
+   - Add `diff_gdrive.py` to the second cell of your Colab notebook.
    - Update the `source_folder_id` and `destination_folder_id` variables.
+  
