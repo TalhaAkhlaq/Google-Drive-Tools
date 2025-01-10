@@ -12,19 +12,6 @@ The script is designed to be run in **Google Colab**, where you can easily authe
 
 3. **Add the following line to the first cell of your Colab notebook:**
 
-     ```python
-# Install the necessary libraries
-!pip install --quiet --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
-from google.colab import auth
-from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
-
-# Authenticate and create the Drive API service
-auth.authenticate_user()
-drive_service = build('drive', 'v3')
-     ```
-
 4. **Run the script:**
    - Copy the content of the script into a cell and execute it, or reference the uploaded script directly.
    - Update the `source_folder_id` and `destination_folder_id` variables.
