@@ -6,7 +6,6 @@ The script is designed to be run in **Google Colab**, where you can easily authe
 
 1. **Set up Google Colab:**
    - Open a Colab notebook at [Google Colab](https://colab.research.google.com/).
-   - Upload the script you want to run (`copy_gdrive.py` or `diff_gdrive.py`).
 
 2. **Install required libraries in Colab:**
 
