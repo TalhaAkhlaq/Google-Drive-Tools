@@ -37,10 +37,11 @@ This repository includes the following scripts:
 
 ## Copyright & Licensing
 
-Copyright (C) 2024 Talha Akhlaq <talhaakhlaq1@gmail.com>
+Copyright © Talha Akhlaq
 
 Distributed under the MIT License. See LICENSE for details.
 ##
 
-For more information on my projects and other academic work, please visit my [GitHub profile](https://github.com/TalhaAkhlaq).
+For more information on my projects and coursework, please see my [repositories](https://github.com/TalhaAkhlaq?tab=repositories).
+
 
